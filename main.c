@@ -14,16 +14,16 @@ int main (void)
 double raizq(double x)
 {
 	double aproximacao = 0.0000001;
-	double valor1 = 1.0;
-	double valor2 = 0;
+	double ai = 1.0;
+	double ak = 0;
 	do
 			{
-        		valor2 = valor1;
-        		valor1 = (valor1 + (x/valor1))/2;
+        		ak = ai;
+        		ai = (ai + (x/ai))/2;
 			} 
-		while (modulo(valor1, valor2) > aproximacao);
+		while (modulo(ai, ak) > aproximacao);
 
-	return valor1;
+	return ai;
 
 
 }	
