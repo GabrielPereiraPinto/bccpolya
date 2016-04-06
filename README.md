@@ -24,6 +24,9 @@ onde:
 
 **Apresentação de solução em fluxograma.**
 
+![fluxograma]
+(https://github.com/gabrielpp7/bccpolya/blob/master/fluxograma.png?raw=true)
+
 **Justificativa do uso do tempo "polya" do nome do repositório.**
 
 O nome é justificado devido a ao nome de George Polya, que foi um matemático que desenvolveu um método para resolução de problemas.
